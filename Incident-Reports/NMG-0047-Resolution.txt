@@ -1,0 +1,9 @@
+Ticket number: NMG-0047
+Affected user: Jane Cooper (jcooper@NMG.com)
+Issue reported: Unable to access HR Shared resources. Desktop policies and mapped driver differ from teammates.
+Root cause: Jane was in the operations OU when she needed to be in the HR OU. Jane Cooper is currently a member of Operations-Users.
+She should be a member of HR-Users.
+Fix applied: I moved her user from the operations OU to the HR OU. I also removed her operations membership and made her a member of HR.
+Verification: Jane should be able to login alongside her piers because she is in the right OU with the right group membership policies.
+Date Resolved:9/11/2026
+Resolved by: IT New Hire
